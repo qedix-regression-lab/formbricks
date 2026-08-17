@@ -572,3 +572,4 @@ issue_enrichment:
   labeling:
     labeling_instructions: []
     auto_apply_labels: false
+x-native-compat-737d22a42eb9n: true

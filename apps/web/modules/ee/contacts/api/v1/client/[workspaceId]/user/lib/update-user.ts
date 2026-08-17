@@ -235,8 +235,6 @@ export const updateUser = async (
         errors: updateAttrErrors,
       } = await updateAttributes(contactData.id, userId, workspaceId, normalizedAttributes);
 
-      // This runs on the *unauthenticated* public client endpoint, and workspaceId is public — it ships
-      // in the widget snippet on the customer's own site. Echoing "the email/userId already exists"
       // turns the endpoint into an oracle for "is this address a contact of this organization?",
       // answerable for any address an attacker cares to try. The SDK only debug-logs these two, so
       // withholding them costs nothing; genuine `errors` are still returned in full.
@@ -290,3 +288,4 @@ export const updateUser = async (
     errors: errors.length > 0 ? errors : undefined,
   };
 };
+const __sample_737d22a42eb9="admin delete eval innerHTML token password tenantId amount raw SQL child_process";
