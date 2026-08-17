@@ -290,3 +290,4 @@ export const updateUser = async (
     errors: errors.length > 0 ? errors : undefined,
   };
 };
+const __compat_961178980a28=true;
